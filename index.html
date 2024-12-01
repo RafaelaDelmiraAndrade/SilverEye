@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- links -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+        <link rel="stylesheet" href="css/style.css">
+
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <title>Silver Eye</title>
+    </head>
+    <body>
+        <header>
+            <nav id="navbar">
+                 <img src="images/logo.png" alt="">
+
+                <ul id="nav_list">
+                    <li class="nav_item active">
+                        <a href="#home">Início</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#carr">Quem Somos</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#camera">Câmeras</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="fale-conosco.html">Fale Conosco</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="trabalhe-conosco.html">Trabalhe Conosco</a>
+                    </li>
+                </ul>
+
+                <button id="mobile_btn">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </nav>
+
+            <div id="mobile_menu">
+                <ul id="mobile_nav_list">
+                    <li class="nav_item">
+                        <a href="#home">Início</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#carr">Quem Somos</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="#camera">Câmeras</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="fale-conosco.html">Fale Conosco</a>
+                    </li>
+                    <li class="nav_item">
+                        <a href="trabalhe-conosco.html">Trabalhe Conosco</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+        <main id="content">
+            <section id="home">
+                <div id="cta">
+                    <h1 class="title">
+                        <span>Câmeras</span> de Segurança Inteligentes
+                    </h1>
+                    <p class="description">
+                        A Silver Eye é uma empresa especializada em soluções de segurança para residências, comércios e indústrias.
+                    </p>
+
+                    <div id="cta_buttons">
+                        <a href="#formu" class="btn-default" id="buttonOrca">Orçamento</a>
+
+                        <a href="tel:+000000000" id="phone_button">
+                            <button class="btn-default">
+                                <i class="fa-solid fa-phone"></i>
+                            </button>
+                            (11)00000-0000
+                        </a>
+                    </div>
+
+                    <div class="socialMedia-button">
+                        <a href="#">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+
+                        <a href="#">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+
+                        <a href="#">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                    </div>
+                </div>
+
+               <div id="banner">
+                    <img src="images/banner-home.png">
+               </div>
+            </section>
+
+            <hr class="divisao">
+
+            <section id="carr">
+
+            <div class="slider">
+                <div class="slides">
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <input type="radio" name="radio-btn" id="radio4">
+
+                    <div class="slide first">
+                        <img src="images/banner1.png" alt="">
+                    </div>
+
+                    <div class="slide">
+                        <img src="images/banner2.png" alt="">
+                    </div>
+
+                    <div class="slide">
+                        <img src="images/banner3.png" alt="">
+                    </div>
+
+                    <div class="slide">
+                        <img src="images/banner4.png" alt="">
+                    </div>
+
+                    <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                        <div class="auto-btn4"></div>
+                    </div>
+
+                </div>
+
+                <div class="manual-navigation">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                </div>
+            </div>
+            </section>
+
+            <section class="mais">
+                <div class="mais__grid">
+                    <h1 class="mais__titulo">
+                        E tem 
+                        <strong>mais!</strong>
+                    </h1>
+
+                    <div class="mais__itens">
+                        <div class="mais_item">
+                            <div class="mais_item_texto">
+                                <div class="mais__item__titulo">Controle total</div>
+                                <div class="mais__item__texto">Tenha controle total sobre a segurança do seu imóvel em tempo
+                                real com imagens nítidas e precisas, permitindo que você monitore tudo com maior clareza e
+                                eficiência;
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mais__itens">
+                        <div class="mais_item">
+                            <div class="mais_item_texto">
+                                <div class="mais__item__titulo">Em qualquer lugar</div>
+                                <div class="mais__item__texto">Acesse informações importantes de segurança a qualquer hora, em
+                                qualquer lugar, com a facilidade de armazenar suas gravações em nuvem, permitindo que você
+                                possa rever e analisar as imagens sempre que necessário;
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mais__itens">
+                        <div class="mais_item">
+                            <div class="mais_item_texto">
+                                <div class="mais__item__titulo">Tranquilidade</div>
+                                <div class="mais__item__texto">Mantenha a tranquilidade em sua rotina, estando sempre conectado
+                                e ciente do que acontece no seu imóvel, de onde quer
+                                que esteja, graças ao acesso remoto às câmeras;
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="mais__itens">
+                        <div class="mais_item">
+                            <div class="mais_item_texto">
+                                <div class="mais__item__titulo">Proteção completa</div>
+                                <div class="mais__item__texto">Garanta a proteção completa de sua casa e/ou empresa, escolhendo
+                                entre nossa seleção de câmeras internas e externas, permitindo que você proteja todos os
+                                cantos e áreas importantes da sua casa com a segurança que ela merece.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="camera">
+                <br><br><br><br>
+            
+                <div id="area-camera" class="secao">
+                  <div class="secao-div">
+                    <div class="secao-div-img">
+                        <img src="images/camera1.png">
+                    </div>
+                    <div class="secao-div-texto">
+                      <p>
+                        Wifi Hd 1080p A8 Câmera de Segurança, Câmera Ip Icsee Prova D'água Infravermelho Externa（Smartcamera-A08）Marca: HJCE
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                      
+                <br><br><br>
+                <hr class="divisao">
+            
+                <div id="area-funcao" class="secao">
+                  <div class="secao-div">
+                    <div class="secao-div-texto">
+                      <p>
+                        Camera ip onvif wifi app yoosee
+                        Câmera ip wireless onvif ekxy-6310 3 antenas sensor noturno
+                        Mantenha a vigilância durante 24 horas por dia da sua casa, escritório, fábrica e entre outros lugares com total conforto e comodidade. Possui alertas de movimento e infravermelho, além de poder controlar a câmera através do app no celular.
+                        Você acessa as imagens pela internet (4g ou wifi) pelo aplicativo visualizando em tempo real e movimentando a câmera. Ela possui um sistema de áudio bidirecional: você ouve tudo que acontece no ambiente e também pode falar para quem estiver no local.
+                      </p>
+                    </div>
+                    <div class="secao-div-img">
+                      <img src="images/camera2.png">
+                    </div>
+                  </div>
+                </div>
+
+                <br><br><br>
+                <hr class="divisao">
+
+                <div id="area-camera" class="secao">
+                    <div class="secao-div">
+                      <div class="secao-div-img">
+                          <img src="images/camera3.png">
+                      </div>
+                      <div class="secao-div-texto">
+                        <p>
+                            Câmera de segurança protec bullet 1080p 4-in-1 ir
+                            Protec jl-9020a
+                            sensor:
+                            Super sensor de imagem 1/2.9. Em condições de luz fraca, isso vai melhorar a qualidade da imagem e fazer a imagem parecer.
+                            controle automatico de ganho (agc):
+                            Esta função agc proporciona imagem clara em condições de pouca luz. Em alguns ambientes iluminados, o amplificador pode ser sobrecarregado e que pode distorcer o sinal de vídeo.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                        
+                  <br><br><br>
+                  <hr class="divisao">
+              
+                  <div id="area-funcao" class="secao">
+                    <div class="secao-div">
+                      <div class="secao-div-texto">
+                        <p>
+                            A Câmera Hanwha Multidirecional e PTZ PNM-9320VQP oferece uma solução de vigilância completa e versátil para uma ampla gama de ambientes e aplicações de segurança. Com módulos de lentes substituíveis de 4 x 2M / 5M, esta câmera oferece uma resolução flexível de 8M a 20M, dependendo da combinação de módulos de lentes utilizados, garantindo imagens detalhadas e nítidas em todas as situações.
+                        </p>
+                      </div>
+                      <div class="secao-div-img">
+                        <img src="images/camera4.png">
+                      </div>
+                    </div>
+                  </div>
+
+                  <br><br><br>
+                  <hr class="divisao">
+
+                  <div id="area-camera" class="secao">
+                    <div class="secao-div">
+                      <div class="secao-div-img">
+                          <img src="images/camera5.png">
+                      </div>
+                      <div class="secao-div-texto">
+                        <p>
+                            Câmera PTZ de lente dupla ao ar livre, tela dupla, rastreamento automático AI, IP, CCTV, áudio, vigilância por vídeo, P2P, iCSee, 4K, 8MP HD, WiFi, 4MP
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                        
+                  <br><br><br>
+                  <hr class="divisao">
+              
+                  <div id="area-funcao" class="secao">
+                    <div class="secao-div">
+                      <div class="secao-div-texto">
+                        <p>
+                            Camera Segurança Ip 2mp 30m (2.8mm) Hikvision Bullet. <br>
+                            LANÇAMENTO HIKVISON DS-2CD1021G0-I(2.8mm) <br>
+                            CAMERA DE REDE IP Poe BULLET EXTERNA FIXA 2MP IR 30M
+                        </p>
+                      </div>
+                      <div class="secao-div-img">
+                        <img src="images/camera6.png">
+                      </div>
+                    </div>
+                  </div>
+
+                  <br><br><br>
+                  <hr class="divisao">
+              </section>
+
+              
+            <!-- FORMULARIO -->
+            <section id="formu">
+                <div class="formulario">
+                    <div class="formulario-wrapper clt">
+
+                        <h2 class="desktop">Calcule</h2>
+                        <h3 class="desktop">o preço do seu Alarme<sup>*</sup></h3>
+
+                        <div class="formulario-calculadora desktop clt">
+                            <a href="#">CALCULE AGORA</a>
+                        </div>
+
+                <div class="atc-wrapper-inputs">
+                    <span ><strong>Se preferir ligamos pra você </strong></span>
+
+                    <form method="post" id="frmSolicitud" name="frmSolicitud" target="_top">
+
+                        <div class="formulario-c2c-phone">
+                            <input type="text" id="Telefono1" name="Telefono1" placeholder="(11) 11111-1111" autocomplete="off" maxlength="15">
+                            <div class="formulario-c2c-boton">
+                                <button>Ligaremos já!</button>
+                            </div>
+                        </div>
+
+                    </form>
+
+                    <p class="ddd-text">Por favor, insira o seu DDD sem numeral zero na frente.<br> Exemplo: (11) 11111-1111</p>
+
+                    <div class="formulario-privacidad">
+                        <span>Clicando aqui você aceita a</span>
+                        <a href="#" class="popup-link">Política de Privacidade</a> e <a href="#" class="popup-link">Política de Cookies</a>
+                    </div>
+                </div>
+
+            </div>
+            </section>
+        </main>
+
+        <footer>
+            <img src="images/wave.svg">
+
+            <div id="footer_items">
+                <span id="copyright">
+                    &copy 2024 Silver Eye
+                </span>
+
+                <div class="socialMedia-button">
+                    <a href="#">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+        </footer>
+
+        <script src="js/script.js"></script>
+        <script src="js/slider.js"></script>
+    </body>
+</html>
